@@ -7,7 +7,7 @@ def add_numbers(num1, num2, num3):
 def main():
     # Check if correct number of arguments is provided
     if len(sys.argv) != 4:
-        print("Usage: python add_numbers.py <number1> <number2> <number3>")
+        print("Command line: python add_numbers.py <number1> <number2> <number3>")
         sys.exit(1)
 
     try:
